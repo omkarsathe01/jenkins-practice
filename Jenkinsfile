@@ -15,7 +15,7 @@ pipeline {
         pwd
         echo "Listing files:"
         ls -ltra
-        docker compose up
+        docker compose up -d
         '''
       }
     }
